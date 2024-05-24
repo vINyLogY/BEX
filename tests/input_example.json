@@ -1,0 +1,59 @@
+{
+    "callback_steps": 1, 
+    "decomposition_method": "Pade",
+    "dim": 10,
+    "dt": 1.0,
+    "dvr_length": 40,
+    "dvr_type": "sine",
+    "elec_bias": 1000.0,
+    "elec_coupling": 1000.0,
+    "end": 100.0,
+    "freq_b": [
+        1000
+    ],
+    "freq_v": [
+        1000
+    ],
+    "heom_factor": "re",
+    "htd_method": "Naive",
+    "include_brownian": true,
+    "include_discrete": false,
+    "include_drude": false,
+    "init_rdo": [
+        [
+            0.5,
+            0.5
+        ],
+        [
+            0.5,
+            0.5
+        ]
+    ],
+    "n_ltc": 2,
+    "ode_atol": 1e-07,
+    "ode_method": "dopri5",
+    "ode_rtol": 1e-05, 
+    "re_b": [
+        200.0
+    ],
+    "re_d": [
+        200.0
+    ],
+    "re_v": [
+        200.0
+    ],
+    "reg_method": "svd",
+    "renormalize": false,
+    "rm_zeroes": false, 
+    "svd_ratio": 1,
+    "temperature": 300.0,
+    "unit_energy": 1000,
+    "use_cross": false,
+    "use_dvr": false,
+    "width_b": [
+        50.0
+    ],
+    "width_d": [
+        100.0
+    ]
+}
